@@ -1,9 +1,9 @@
-target/
-out/
-overlays/
+bin/
 
 *.iml
 *.ipr
 *.iws
 *.idea
 *.idea/*
+
+.project

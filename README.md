@@ -1,13 +1,13 @@
-java-technical-test
+python-technical-test
 ===================
 
-Java programming questions.
+Python programming questions.
 
 ## Instructions
 
-1. Clone this git repository which contains a number of Java source files and open as a project in your editor of choice.
+1. Clone this git repository which contains a number of Python source files and open as a project in your editor of choice.
 2. Answer the three questions listed below by providing the missing implementations.  Do NOT use 3rd party libraries.
-3. Provide tests in your preferred style to support your solution.  You can use common test libraries such as junit and mockito.
+3. Provide tests in your preferred style to support your solution.  You can use common test libraries such as pytest.
 4. Zip up and email the entire source tree to jobs@solidstategroup.com.
 
 **Note: Please do NOT spend more than 2 hours on this test.**
