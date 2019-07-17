@@ -1,5 +1,6 @@
 from .search import Search
 
+
 class MultiSearch(Search):
     """Base class for combining the results of multiple Search objects."""
 
