@@ -5,10 +5,10 @@ from __future__ import annotations
 
 class Node:
     """Represents a single node in a tree structure"""
-    children = []
 
     def __init__(self, value: int):
         self.value = value
+        self.children = []
 
     def get_value(self) -> int:
         """
