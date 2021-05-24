@@ -1,13 +1,12 @@
-python-technical-test
-===================
+# python-technical-test
 
 Python programming questions.
 
 ## Instructions
 
 1. Clone this git repository which contains a number of Python source files and open as a project in your editor of choice.
-2. Answer the three questions listed below by providing the missing implementations.  Do NOT use 3rd party libraries.
-3. Provide tests in your preferred style to support your solution.  You can use common test libraries such as pytest.
+2. Answer the three questions listed below by providing the missing implementations. Do NOT use 3rd party libraries.
+3. Provide tests in your preferred style to support your solution. You can use common test libraries such as pytest.
 4. Zip up and email the entire source tree to jobs@solidstategroup.com.
 
 **Note: Please do NOT spend more than 2 hours on this test.**
@@ -29,24 +28,6 @@ Complete the method stub in the Palindrome class.
 
 Complete the method stub in the TreeAverageValue class.
 
-## Question 3: Parallel Multi Search
+## Question 3: REST API Architecture
 
-Review the Search interface.  The search method on this interface represents a generic Search.
-
-Example concrete class: GoogleSearch - usage - search google for "London"
-
-Review the MultiSearch class.  The aim of this class is to provide multiple searches using the same query over a
-defined set of searches.  The results of all the searches are to be aggregated.
-
-Example concrete class: SerialMultiSearch - usage - search google and yahoo searches for "London", in serial fashion
-
-As a single search call made to a resource might take a considerable amount of time, ParallelMultiSearch
-will execute all the searches in the MultiSearch in parallel to provide a quicker overall implementation.
-
-Complete the method stub in the ParallelMultiSearch class to provide a fast implementation of the search.
-
-Example usage: - search google and yahoo searches for "London", in parallel fashion
-
-Note: Assume each Search is independent to the others.
-
-Note: The order of the results returned by the MultiSearch is not important.
+Please read and complete the [README.md](question3/README.md).
