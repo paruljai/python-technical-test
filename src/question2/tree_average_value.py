@@ -34,5 +34,16 @@ def get_average(root: Node) -> float:
     :return the average of all node values in the tree
     """
 
-    # todo
-    return -1
+    if not root:
+        return 0
+
+    queue = [root]
+    total, count = 0, 0
+
+    while queue:
+        node = queue.pop(0)
+        total += node.get_value()
+        count += 1
+        queue.extend(node.get_children())
+
+    return total / count

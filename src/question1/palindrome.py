@@ -8,5 +8,9 @@ def is_palindrome(word: str) -> bool:
        :param word string to determine if a palindrome
        :return true if the parameter is a palindrome and false otherwise"""
 
-    # Todo
-    return False
+    l = len(word)
+
+    for i in range(0, l // 2):
+    	if word[i] != word[l - 1 - i]:
+    		return False
+    return True
